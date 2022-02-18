@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TetrisView()
+          .frame(minWidth: 1000, idealWidth: 1200, minHeight: 1000, idealHeight: 1200)
     }
 }
 
